@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
+    <!-- 영속성 컨텍스트 이름 지정 : jpa-config -->
+    <persistence-unit name="jpa-config">
+        <class>com.ohgiraffers.chap02.model.User</class>
+        <class>com.ohgiraffers.chap02.model.Role</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/JPA_LECTURE"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="1234"/>
+            <!-- Query를 보여주는 옵션: true -->
+            <property name="hibernate.show_sql" value="true"/>
+            <!-- Query를 포맷팅 옵션: true -->
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
