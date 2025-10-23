@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
+    <!-- 영속성 컨텍스트 이름 지정 : jpa-config -->
+    <persistence-unit name="jpa-config">
+        <class>com.ohgiraffers.inheritance.chap01.section02.model.Product</class>
+        <class>com.ohgiraffers.inheritance.chap01.section02.model.ElectronicProduct</class>
+        <class>com.ohgiraffers.inheritance.chap01.section02.model.ClothingProduct</class>
+        <class>com.ohgiraffers.inheritance.chap01.section02.model.FoodProduct</class>
+
+        <class>com.ohgiraffers.inheritance.chap01.section03.model.ProductJoined</class>
+        <class>com.ohgiraffers.inheritance.chap01.section03.model.FoodProductJoined</class>
+        <class>com.ohgiraffers.inheritance.chap01.section03.model.ElectronicProductJoined</class>
+        <class>com.ohgiraffers.inheritance.chap01.section03.model.ClothingProductJoined</class>
+
+        <class>com.ohgiraffers.inheritance.chap01.section04.model.ProductTPC</class>
+        <class>com.ohgiraffers.inheritance.chap01.section04.model.FoodProductTPC</class>
+        <class>com.ohgiraffers.inheritance.chap01.section04.model.ElectronicProductTPC</class>
+        <class>com.ohgiraffers.inheritance.chap01.section04.model.ClothingProductTPC</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/JPA_LECTURE"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="1234"/>
+            <!-- Query를 보여주는 옵션: true -->
+            <property name="hibernate.show_sql" value="true"/>
+            <!-- Query를 포맷팅 옵션: true -->
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- DDL 옵션-->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

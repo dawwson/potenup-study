@@ -30,7 +30,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/dawwson/potenup-stduy.git",
+    "url": "https://github.com/dawwson/potenup-study.git",
     "accountId": "ed856234-dbb3-4024-833e-69d0e404a872"
   }
 }]]></component>
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761086756410</updated>
-      <workItem from="1761086757724" duration="2875000" />
+      <workItem from="1761086757724" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="add: 수업 자료 업로드">
       <option name="closed" value="true" />
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761087934126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: 수업 자료 업로드">
+      <option name="closed" value="true" />
+      <created>1761090126451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761090126451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
