@@ -1,0 +1,14 @@
+package com.ohgiraffers.injection.chap01.section03.service;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component("kakaoPay03")
+@Primary
+public class KakaoPayGateway implements PaymentsInterface {
+    @Override
+    public boolean processPayment(String orderId, double amount) {
+        System.out.println("카카오 페이로 결제를 진행합니다... 주문 ID" + orderId + ", 금액 : " + amount);
+        return true;
+    }
+}
