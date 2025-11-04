@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>파라미터 테스트</title>
+</head>
+<body>
+<h1>서블릿 파라미터 테스트</h1>
+
+  <!-- GET 요청 테스트 -->
+  <h2>GET 요청 (쿼리스트링 & 경로 값)</h2>
+  <p>아래 링크를 클릭하여 GET 요청을 테스트하세요:</p>
+  <ul>
+    <li><a href="/params?name=John&age=25">쿼리스트링: name=John, age=25</a></li>
+    <li><a href="/params/123?name=Alice&age=30">경로 값: 123, 쿼리스트링: name=Alice, age=30</a></li>
+    <li><a href="/params">파라미터 없이 요청 (기본값 테스트)</a></li>
+  </ul>
+
+  <hr>
+  <!-- POST 요청 테스트 -->
+  <h2>POST 요청 (본문 파라미터)</h2>
+  <p>아래 폼을 작성하여 POST 요청을 테스트하세요:</p>
+  <form action="/params" method="post">
+    <label for="userid">사용자 이름:</label>
+    <input type="text" id="userid" name="username" placeholder="사용자 이름 입력"><br><br>
+
+    <label for="password">비밀번호:</label>
+    <input type="password" id="pass" name="password" placeholder="비밀번호 입력"><br><br>
+
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>

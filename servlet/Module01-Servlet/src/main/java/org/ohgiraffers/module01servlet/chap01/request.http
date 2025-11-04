@@ -1,0 +1,8 @@
+@baseUrl=http://localhost:8080/
+@contentType=application/json
+
+###
+GET {{baseUrl}}/life-cycle
+
+###
+POST http://localhost:8080/life-cycle
