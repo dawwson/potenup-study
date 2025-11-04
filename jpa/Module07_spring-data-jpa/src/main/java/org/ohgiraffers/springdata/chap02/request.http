@@ -1,0 +1,16 @@
+### 1. ID로 특정 상품 조회 (성공 예시: 1번 상품)
+# @GetMapping("/{productId}")
+GET http://localhost:8080/chap02/products/1
+Accept: application/json
+
+
+### 2. 새로운 상품 등록
+# @PostMapping
+POST http://localhost:8080/chap02/products
+Content-Type: application/json
+Accept: application/json
+
+{
+  "productName": "새로운 상품 (테스트)",
+  "price": 15000
+}
