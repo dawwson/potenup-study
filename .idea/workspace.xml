@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9b3c360-baa3-4b44-920c-9ec2859b1bce" name="변경" comment="add: 수업 자료 업로드">
-      <change afterPath="$PROJECT_DIR$/java-study/java-study/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/UserRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap01/section01/model/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +26,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dawwson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dawwson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dawwson/potenup-study.git",
-    "accountId": "ed856234-dbb3-4024-833e-69d0e404a872"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dawwson/potenup-study.git&quot;,
+    &quot;accountId&quot;: &quot;ed856234-dbb3-4024-833e-69d0e404a872&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="34OZopSNcwVxXJiMgxSVFkTfb4v" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -44,29 +48,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/shines/Documents/02.study/potenup/lecture",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shines/Documents/02.study/potenup/lecture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,6 +88,10 @@
       <option name="presentableId" value="Default" />
       <updated>1761086756410</updated>
       <workItem from="1761086757724" duration="3133000" />
+      <workItem from="1761205370226" duration="147000" />
+      <workItem from="1761219068454" duration="710000" />
+      <workItem from="1761622625812" duration="101000" />
+      <workItem from="1761634417533" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="add: 수업 자료 업로드">
       <option name="closed" value="true" />
@@ -108,14 +117,68 @@
       <option name="project" value="LOCAL" />
       <updated>1761090126451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: 수업 자료 업로드">
+      <option name="closed" value="true" />
+      <created>1761205490852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761205490852</updated>
+    </task>
+    <task id="LOCAL-00005" summary="오타 수정">
+      <option name="closed" value="true" />
+      <created>1761219104439</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761219104439</updated>
+    </task>
+    <task id="LOCAL-00006" summary="spring core - module01 수업 내용 업로드">
+      <option name="closed" value="true" />
+      <created>1761622647376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761622647376</updated>
+    </task>
+    <task id="LOCAL-00007" summary="spring core - module01 수업 내용 업로드">
+      <option name="closed" value="true" />
+      <created>1761622690391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761622690391</updated>
+    </task>
+    <task id="LOCAL-00008" summary="spring core - module02 수업 내용 업로드">
+      <option name="closed" value="true" />
+      <created>1761634522532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761634522532</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: 수업 자료 업로드" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 수업 자료 업로드" />
+    <MESSAGE value="오타 수정" />
+    <MESSAGE value="spring core - module01 수업 내용 업로드" />
+    <MESSAGE value="spring core - module02 수업 내용 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring core - module02 수업 내용 업로드" />
   </component>
 </project>
