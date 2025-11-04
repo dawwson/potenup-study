@@ -1,0 +1,4 @@
+# Spring configuration
+spring:
+  application:
+    name: Module01-RequestMapping
