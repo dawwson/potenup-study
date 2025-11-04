@@ -25,7 +25,7 @@ public class Application {
     }
 
 
-    /**
+    /*
      * 비영속 상태 테스트
      * - 엔티티 객체가 JPA와 연관되지 않은 상태를 확인한다.
      */
@@ -33,7 +33,7 @@ public class Application {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        /**
+        /*
          * 비영속 상태 (new)
          * - Role 객체를 생성하였지만, 아직 JPA의 영속성 컨텍스트와 연관되지 않은 상태이다.
          * - JPA는 이 객체를 관리하지 않으며, 데이터베이스와도 연결되지 않는다.
@@ -55,7 +55,7 @@ public class Application {
 
         Role role = new Role("영속 권한");
 
-        /**
+        /*
          * 영속 상태
          * - em.persist(role)를 호출하여 Role 객체가 영속성 컨텍스트에 등록된다.
          * - JPA는 이 객체를 1차 캐시에 보관하며, 상태 변화를 추적한다.
@@ -74,11 +74,11 @@ public class Application {
         em.close();
     }
 
-    private static void testDetachedState(EntityManagerFactory emf) {
+    public static void testDetachedState(EntityManagerFactory emf) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        /**
+        /*
          * 준영속 상태
          * - em.persist(role)로 영속 상태가 된 객체를 em.detach(role)로 준영속 상태로 전환한다.
          * - 준영속 상태에서는 영속성 컨텍스트에서 분리되어 더이상 JPA가 변경을 추적하지 않는다.
@@ -106,7 +106,7 @@ public class Application {
         em.persist(role);
 
         System.out.println("영속 상태 - role = " + role);
-        /**
+        /*
          * 삭제 상태
          * - em.persist(role)로 영속 상태가 된 객체를 em.remove(role)로 삭제 상태로 전환한다.
          * - 삭제 상태에서는 트랜잭션 커밋 시 delete 쿼리가 실행되며 데이터베이스에 해당 레코드가 삭제된다.
