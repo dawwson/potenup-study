@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/11_docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/potenup-1st-fe-be" vcs="Git" />
   </component>
 </project>
