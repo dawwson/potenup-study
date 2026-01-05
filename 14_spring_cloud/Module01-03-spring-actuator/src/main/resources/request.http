@@ -1,0 +1,4 @@
+
+
+
+GET http://localhost:9090/manage/metrics/application.started.time

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order-service
+  config:
+    import: "consul:"
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        format: yaml
+        data-key: data
+      discovery:
+        service-name: ${spring.application.name}
+        instance-id: ${spring.application.name}:${random.value}
