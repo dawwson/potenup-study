@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9b3c360-baa3-4b44-920c-9ec2859b1bce" name="변경" comment="add: 수업 자료 업로드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap02/section02/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/Module01-intro-lecture/src/main/java/com/ohgiraffers/chap02/section02/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,7 @@
       <workItem from="1761622625812" duration="101000" />
       <workItem from="1761634417533" duration="1335000" />
       <workItem from="1762224632796" duration="583000" />
+      <workItem from="1767588059413" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="add: 수업 자료 업로드">
       <option name="closed" value="true" />
@@ -203,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762224992336</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="MSA 수업 자료 업로드">
+      <option name="closed" value="true" />
+      <created>1767588135724</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767588135724</updated>
+    </task>
+    <task id="LOCAL-00016" summary="수업 자료 업로드">
+      <option name="closed" value="true" />
+      <created>1767588290161</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1767588290161</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +247,16 @@
     <MESSAGE value="servlet 수업 내용 업로드" />
     <MESSAGE value="spring core 수업 내용 업로드" />
     <MESSAGE value=".idea 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea 업데이트" />
+    <MESSAGE value="MSA 수업 자료 업로드" />
+    <MESSAGE value="수업 자료 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="수업 자료 업로드" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
