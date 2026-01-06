@@ -68,6 +68,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01_java-jdk17/Module02-control-flow-and-method/src/main/java/com/ohgiraffers/d_activity/mission" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +94,7 @@
       <workItem from="1761622625812" duration="101000" />
       <workItem from="1761634417533" duration="1335000" />
       <workItem from="1762224632796" duration="583000" />
-      <workItem from="1767588059413" duration="2236000" />
+      <workItem from="1767588059413" duration="7334000" />
     </task>
     <task id="LOCAL-00001" summary="add: 수업 자료 업로드">
       <option name="closed" value="true" />
@@ -219,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767588290161</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="01_java-jdk17 빠진 내용 추가">
+      <option name="closed" value="true" />
+      <created>1767590513604</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767590513604</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +262,8 @@
     <MESSAGE value=".idea 업데이트" />
     <MESSAGE value="MSA 수업 자료 업로드" />
     <MESSAGE value="수업 자료 업로드" />
-    <option name="LAST_COMMIT_MESSAGE" value="수업 자료 업로드" />
+    <MESSAGE value="01_java-jdk17 빠진 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="01_java-jdk17 빠진 내용 추가" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
