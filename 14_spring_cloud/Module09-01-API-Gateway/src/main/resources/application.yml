@@ -1,0 +1,39 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  cloud:
+    loadbalancer:
+      enabled: false
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: order-service-route
+              uri: li://ORDER-SERVICE
+              predicates:
+                - Path=/api/orders/**
+                - Method=GET, POST, DELETE, PUT
+              filters:
+                - AddRequestHeader=X-GATEWAY, GATEWAY-SERVICE
+                - RewritePath=/api/orders(?<segment>/.*)?, /orders${segment}
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        enabled: true
+        register: true
+        service-name: ${spring.application.name}
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+
+logging:
+  level:
+    org.springframework.cloud.gateway: INFO
+    reactor.netty.http.client: DEBUG

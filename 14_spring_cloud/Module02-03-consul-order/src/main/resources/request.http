@@ -1,0 +1,2 @@
+GET localhost:8080/orders/1
+Accept: text/plain

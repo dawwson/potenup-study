@@ -1,0 +1,30 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  cloud:
+    loadbalancer:
+      enabled: false
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: test-route
+              uri: https://httpbin.org/
+              predicates:
+                - Path=/bin/**
+              filters:
+                - AddRequestHeader=Hello, World
+                - RewritePath=/bin/(?<segment>.*), /${segment}
+
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+
+logging:
+  level:
+    org.springframework.cloud.gateway: INFO
+    reactor.netty.http.client: DEBUG

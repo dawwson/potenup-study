@@ -1,0 +1,24 @@
+server.port=8080
+spring.application.name=ACTUATOR-SERVICE
+  
+# info 엔드포인트에 노출할 애플리케이션 정보
+info.app.name="${spring.application.name}"
+info.app.version="1.0.0"
+info.app.description="액추에이터 테스트 서비스"
+  
+# management 설정:
+# - 운영/모니터링 용도의 엔드포인트 관리
+# - Spring Boot Actuator를 통해 상태, 메트릭, 로그 등을 제공
+# - 일반 애플리케이션 포트와 분리하여 보안 및 역할 분리
+  
+# info 엔드포인트에 환경 변수 정보 포함 여부
+management.info.env.enabled=true
+  # Actuator 전용 포트 (운영/관리 목적)
+management.server.port=9090
+# Actuator 엔드포인트 기본 경로
+management.endpoints.web.base-path=/manage
+# 외부에 노출할 Actuator 엔드포인트 목록
+# (shutdown은 보안상 주의 필요)
+management.endpoints.web.exposure.include=health,info, metrics,prometheus,loggers,shutdown
+# 애플리케이션 종료(shutdown) 엔드포인트 접근 허용
+management.endpoint.shutdown.access=unrestricted

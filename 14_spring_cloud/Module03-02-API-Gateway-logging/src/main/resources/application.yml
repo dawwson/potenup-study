@@ -1,0 +1,23 @@
+server:
+  port: 8000
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          default-filters: # ?? ???? ???? ?? ??
+
+          routes:
+            - id: USER-SERVICE
+              uri: http://localhost:8081 # mock ??
+              predicates:
+                - Path=/users/**
+              filters:
+                - AuthorizationHeaderFilter
+            - id: global-logging-catchall
+              uri: no://op
+              predicates:
+                - Path=/**
+              filters:
+                - DedupeResponseHeader=Vary Access-Control-Allow-Origin

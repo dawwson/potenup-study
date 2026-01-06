@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: ORDER-SERVICE
+    cloud:
+      consul:
+        host: localhostapplication.yml
+        port: 8500
+        discovery:
+          health-check-path: /actuator/health
+          health-check-interval: 10s
+          enabled: true
+          register: true
+          service-name: #{spring.application.name}
